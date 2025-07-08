@@ -31,11 +31,15 @@ View current users:
 cat /etc/passwd
 ```
 
+![/etc/passwd](Images/etc:passwd.png)
+
 View current groups:
 
 ```bash
 cat /etc/group
 ```
+
+![/etc/group](Images/group.png)
 
 ---
 
