@@ -57,7 +57,7 @@ Switch to user:
 su - myles
 ```
 
-![/etc/group](Images/adduser.png)
+![/etc/group](Images/switch.png)
 
 ---
 
