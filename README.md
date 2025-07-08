@@ -116,8 +116,10 @@ sudo delgroup myles
 Remove user from group:
 
 ```bash
-sudo gpasswd -d cjbon devops
+sudo gpasswd -d myles devops
 ```
+
+![remove](Images/remove.png)
 
 ---
 
