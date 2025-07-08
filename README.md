@@ -101,7 +101,7 @@ View user groups:
 groups myles
 ```
 
-![groups](Images/addgroups1.png)
+![groups](Images/addgropus1.png)
 
 ---
 
