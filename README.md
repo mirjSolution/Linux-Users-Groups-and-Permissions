@@ -39,7 +39,7 @@ View current groups:
 cat /etc/group
 ```
 
-![/etc/group](Images/group.png)
+![/etc/group](Images/groups.png)
 
 ---
 
