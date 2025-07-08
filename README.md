@@ -1,4 +1,4 @@
-# 👤 Linux Users, Groups & Permissions
+# 👤 Linux Users, Groups and Permissions
 
 This guide explains how user accounts and groups are managed in Linux, how permissions are assigned, and why it's important for server security and collaboration.
 
@@ -26,11 +26,13 @@ This guide explains how user accounts and groups are managed in Linux, how permi
 - Groups: `/etc/group`
 
 View current users:
+
 ```bash
 cat /etc/passwd
 ```
 
 View current groups:
+
 ```bash
 cat /etc/group
 ```
@@ -40,12 +42,13 @@ cat /etc/group
 ## ➕ Add New User
 
 ```bash
-sudo adduser tom
+sudo adduser myles
 ```
 
 Switch to user:
+
 ```bash
-su - tom
+su - myles
 ```
 
 ---
@@ -53,7 +56,7 @@ su - tom
 ## 🔐 Change User Password
 
 ```bash
-sudo passwd tom
+sudo passwd myles
 ```
 
 ---
@@ -69,18 +72,21 @@ sudo addgroup devops
 ## 🧑‍🤝‍🧑 Add User to Group
 
 Set primary group:
+
 ```bash
-sudo usermod -g devops tom
+sudo usermod -g devops myles
 ```
 
 Add to additional (secondary) groups:
+
 ```bash
-sudo usermod -aG admin tom
+sudo usermod -aG admin myles
 ```
 
 View user groups:
+
 ```bash
-groups tom
+groups myles
 ```
 
 ---
@@ -88,13 +94,15 @@ groups tom
 ## ❌ Remove Group or User from Group
 
 Remove group:
+
 ```bash
-sudo delgroup tom
+sudo delgroup myles
 ```
 
 Remove user from group:
+
 ```bash
-sudo gpasswd -d nicol devops
+sudo gpasswd -d cjbon devops
 ```
 
 ---
@@ -102,28 +110,28 @@ sudo gpasswd -d nicol devops
 ## 🛠 Create User and Assign Group Immediately
 
 ```bash
-sudo adduser nicol
-sudo usermod -aG devops nicol
+sudo adduser cjbon
+sudo usermod -aG devops cjbon
 ```
 
 ---
 
 ## 🧾 Command Reference
 
-| Command                        | Description                         |
-|-------------------------------|-------------------------------------|
-| `adduser <name>`              | Add a new user                      |
-| `addgroup <group>`            | Add a new group                     |
-| `usermod -g <group> <user>`   | Change user’s primary group         |
-| `usermod -aG <grp1>,<grp2>`   | Add user to multiple secondary groups |
-| `groups <user>`               | Show user's groups                  |
-| `gpasswd -d <user> <group>`   | Remove user from a group            |
-| `delgroup <group>`            | Delete a group                      |
-| `passwd <user>`               | Set/change a user password          |
-| `su - <user>`                 | Switch to another user              |
-| `exit`                        | Return to previous user session     |
+| Command                     | Description                           |
+| --------------------------- | ------------------------------------- |
+| `adduser <name>`            | Add a new user                        |
+| `addgroup <group>`          | Add a new group                       |
+| `usermod -g <group> <user>` | Change user’s primary group           |
+| `usermod -aG <grp1>,<grp2>` | Add user to multiple secondary groups |
+| `groups <user>`             | Show user's groups                    |
+| `gpasswd -d <user> <group>` | Remove user from a group              |
+| `delgroup <group>`          | Delete a group                        |
+| `passwd <user>`             | Set/change a user password            |
+| `su - <user>`               | Switch to another user                |
+| `exit`                      | Return to previous user session       |
 
 ---
 
-🧑‍💻 *Created by Rico John Dato-on*  
+🧑‍💻 _Created by Rico John Dato-on_  
 🔗 [LinkedIn](https://www.linkedin.com/in/rico-john-dato-on) • [Portfolio](https://ricodatoon.netlify.app)
