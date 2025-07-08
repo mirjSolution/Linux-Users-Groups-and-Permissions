@@ -126,9 +126,10 @@ sudo gpasswd -d myles devops
 ## 🛠 Create User and Assign Group Immediately
 
 ```bash
-sudo adduser cjbon
-sudo usermod -aG devops cjbon
+sudo adduser cjbon && sudo usermod -aG devops cjbon
 ```
+
+![2](Images/2.png)
 
 ---
 
