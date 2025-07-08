@@ -49,11 +49,15 @@ cat /etc/group
 sudo adduser myles
 ```
 
+![/etc/group](Images/adduser.png)
+
 Switch to user:
 
 ```bash
 su - myles
 ```
+
+![/etc/group](Images/adduser.png)
 
 ---
 
