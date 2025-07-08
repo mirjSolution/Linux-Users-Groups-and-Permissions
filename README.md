@@ -73,11 +73,11 @@ sudo passwd myles
 
 ## ➕ Add New Group
 
-![add group](Images/addgroups.png)
-
 ```bash
 sudo addgroup devops
 ```
+
+![add group](Images/addgroups.png)
 
 ---
 
@@ -100,6 +100,8 @@ View user groups:
 ```bash
 groups myles
 ```
+
+![groups](Images/addgroups1.png)
 
 ---
 
