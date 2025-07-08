@@ -73,7 +73,7 @@ sudo passwd myles
 
 ## ➕ Add New Group
 
-![add group](Images/addgroup.png)
+![add group](Images/addgroups.png)
 
 ```bash
 sudo addgroup devops
