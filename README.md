@@ -63,6 +63,8 @@ su - myles
 
 ## 🔐 Change User Password
 
+![change](Images/change.png)
+
 ```bash
 sudo passwd myles
 ```
